@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Mon premier formulaire</title>
+    <meta name="description" content="Ceci est mon premier formulaire">
+    </head>
+    <body>
+        <form>
+        <fieldset>
+            <legend>Légende du formulaire</legend>
+
+            <label for="identifiant">Identifiant</label>
+            <input type="text" id="identifiant"><br><br>
+
+            <label for="motdepasse">Mot de pass</label>
+            <input type="password" id="motdepasse"><br><br>
+
+            <label for="confirmation">Confirmation du mot de passe</label>
+            <input type="password" id="confirmation"><br><br>
+
+            <label for="mail">Email</label>
+            <input type="email" id="mail"><br><br>
+
+            <input type="checkbox" id="check">
+            <label for="check">J'aime cocher des cases !!</label><br><br><br>
+
+            <label for="jaimeaussi">J'aime aussi:</label><br><br>
+            <input type="radio" name="jaimeaussi" id="pangolins">
+            <label for="pangolins">Les pangolins</label>
+            <input type="radio" name="jaimeaussi" id="chats">
+            <label for="chats">Les chats</label>
+            <input type="radio" name="jaimeaussi" id="escargots">
+            <label for="escargots">Les escargots (en persillade)</label>
+            <input type="radio" name="jaimeaussi" id="bananes">
+            <label for="bananes">Les bananes</label><br><br>
+
+            <label for="list">Je préfère chanter dans la/le/les</label>
+            <select id="list">
+                <option value="voiture">voiture</option>
+                <option value="douche">douche</option>
+                <option value="cuisine">cuisine</option>
+                
+                <optgroup label="mais aussi">
+                    <option value="">cave</option>
+                    <option value="">toilettes</option>
+                </optgroup>
+
+            </select>
+        </fieldset><br><br>
+    </form>
+    <form>
+        <fieldset>
+
+            <legend>Les petits plus du formulaire</legend>
+
+            <label for="texte">Zone de Texte</label><br>
+            <textarea  id="texte" cols="20" rows="2"></textarea><br><br>
+
+            <label for="url">Permet d'entrer une URL</label>
+            <input type="url"><br><br>
+
+            <label for="tel">Permet d'entrer un numéro de téléphone</label>
+            <input type="tel" id="tel"><br><br>
+
+            <label for="nombre">Permet d'entrer un nombre entier</label>
+            <input type="number" id="nombre" min="1" max="5"><br><br>
+
+            <label for="curseur">Permet d'afficher un curseur</label>
+            <input type="range" name="curseur" id="curseur" value="50"><br><br>
+            
+            <label for="color">Permet de séléctionner une couleur</label>
+            <input type="color" id="color"><br><br>
+
+            <label for="datetime">Permet d'entrer une date</label>
+            <input type="date" id="datetime"><br><br>
+
+            <label for="heure">Permet d'entrer l'heure</label>
+            <input type="time" id="heure"><br><br>
+
+            <label for="semaine">Permet d'entrer la semaine</label>
+            <input type="week" id="semaine"><br><br>
+
+            <label for="mois">Permet d'entrer le mois</label>
+            <input type="month" id="mois">            
+
+        </fieldset><br><br>
+    </form>
+    <form action="search.php" method="post">    
+        <fieldset>
+
+            <legend>formulaire de recherche</legend>
+
+            <input type="search" id="recherche" placeholder="Rechercher">
+            <input type="button" value="Rechercher">
+
+        </fieldset>
+    </form>
+    </body>
+</html>

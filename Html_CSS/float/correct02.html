@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .fl{float: left;}
+        .fr{float: right;}
+        .corail{background: coral;}
+        .violet{background-color: purple;}
+        .vert{background-color: yellowgreen;}
+        .rose{background-color: pink;}
+        .rouge{background-color: crimson;}
+        .bleu{background-color: lightblue;}
+        .plum{background-color: plum;}
+        .parent{
+            width: 9rem;
+            margin: 2rem auto;
+            
+        }
+        .parent::after{
+            content: '';
+            display: block;
+            float: none;
+            clear: both;
+        }
+        .div01{
+            width: 9rem;
+            height: 1.5rem;
+        }
+        .div02{
+            height: 3rem;
+            width: 3rem;
+        }
+        .div03{
+            height: 3rem;
+            width: 3rem;
+        }
+         .div04{
+            height: 3rem;
+            width: 3rem;
+        }
+        .div05{
+            width: 9rem;
+            height: 1.5rem;
+            clear: both;
+
+        }
+        .div06, .div07, .div11, .div12{
+            width: 4.5rem;
+            height: 1.5rem;
+
+        }
+        .div08{
+            width: 5.5rem;
+            height: 3rem;
+        }
+        .div09, .div10{
+            width: 3.5rem;
+            height: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+        <div class="div01 corail"></div>
+        <div class="div02 fl violet"></div>
+        <div class="div03 fl vert"></div>
+        <div class="div04 fl rose"></div>
+        <div class="div05 rouge"></div>
+    </div>
+    <div class="parent">
+        <div class="div06 corail fl"></div>
+        <div class="div07 violet fl"></div>
+        <div class="div08 vert fl"></div>
+        <!-- <div class="fl">
+            <div class="div09 rose"></div>
+            <div class="div10 rouge"></div>
+        </div>  soit on fait floater le parent soit on fait floater les enfants-->
+        <div class="div09 rose fl"></div>
+        <div class="div10 rouge fl"></div>
+        <div class="div11 plum fl"></div>
+        <div class="div12 bleu fl"></div>
+        
+    </div>
+
+</body>
+</html>

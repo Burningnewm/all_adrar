@@ -1,0 +1,63 @@
+body {
+    font-family: arial;
+}
+h1 {
+    padding: 4rem;
+    color:tomato ;
+    text-align: center;
+    font-size: 2.5rem ;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+img {
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+hr {
+    border-top: 3px solid rgb(64, 224, 203);
+    width: 50%;
+    margin-top: 1rem; 
+}
+h2 {
+    padding: 2rem;
+    color: lightgreen;
+    text-align: center;
+    font-size: 2rem ;
+    text-transform: uppercase;
+}
+.lien {
+    font-size: 1rem;
+    color: purple;
+    text-decoration: none;
+}
+p {
+    font-size: 1rem;
+}
+h3 {
+    padding: 2rem;
+    color: blue ;
+    text-align: center;
+    font-size: 1.5rem ;
+    text-transform: uppercase;
+}
+ul {
+    text-align: center;
+    border: 1px solid red;
+    color: red;
+    padding: 5rem;
+    margin: auto;
+    width: 25%;
+    
+}
+ol {
+    text-align: center;
+    border: 1px solid red;
+    color: red;
+    padding: 5rem;
+    margin: auto;
+    width: 25%;
+    /* list-style: none; */
+}

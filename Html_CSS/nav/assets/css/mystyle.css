@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+}
+header {
+    height: 3rem;
+    width: 100%;
+    background-color: salmon;
+    text-align: center;
+    line-height: 3rem;
+}
+.menu{
+    color: rgb(236, 189, 86);
+    width: 33%;
+    margin: auto;
+    text-decoration: none;
+    display: block;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+}
+.options {
+    display: none;
+    background-color:sandybrown;
+    z-index: 1;
+    border: 1px;
+  }
+nav ul li:hover .options{
+    display: block;
+    color: seashell;
+}
+nav ul li {
+    width: 100%;
+    text-align: center;
+}
+nav ul li ul li a {
+    text-decoration: none;
+    background-color: sandybrown ;
+    color: white;
+   
+}
+nav ul li ul li:hover a {
+    color: rgb(245, 119, 9);
+    background-color: rgb(112, 55, 5);
+}
+.general {
+    width: 33.3%;
+}
+.option li {
+    text-align: center;
+    width: 100%;
+}
+nav ul li ul li:hover {
+    background-color: rgb(112, 55, 5);
+}

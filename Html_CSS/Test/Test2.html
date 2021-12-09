@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> <!--encode de la page-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"><!--compatibilité, non obligatoire.-->
+    <meta name="viewport" content="width=device-width", initial-scale=1.0><!--fortement consiellée, comment la page se comporte en fonction du support, taille de l'ecran (telephone, ecran d'ordinateur)-->
+    <title>Tableau</title><!--Essayer de ne pas depasser 35 caracteres-->
+    <meta name="description" content="Exemple de tableau"><!--Essayer de ne pas despasser 160 caracteres.-->
+</head>
+<body>
+    <table border="1" cellspacing="1" cellpadding="5">
+        <tr>
+            <td>1</td>
+            <td>1.1</td>
+            <td>1.2</td>
+            <td rowspan="3">1.3</td>
+            <td>1.4</td>
+        </tr>
+        <tr>
+            <td colspan="3">2</td>
+        </tr>
+         <tr>
+             <td>3</td>
+        </tr>   
+        <tr>
+            <td>4</td>
+        </tr>    
+        <tr>
+            <td>5</td>
+        </tr>    
+        <tr>
+            <td>6</td>
+        </tr>    
+    </table>
+    <table border="1" cellspacing="1" cellpadding="5">
+        <tr>
+            <td>1.1
+                <td>1.2
+                    <table border="1" cellspacing="1" cellpadding="5" bgcolor="amber" width="200" height="200">
+                        <tr>
+                            <td align="center">2</td>
+                            <td align="right">3</td>
+                        </tr>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+</body>

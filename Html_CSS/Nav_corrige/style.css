@@ -1,0 +1,42 @@
+ul {
+    background-color: pink;
+    height: 6rem;
+    text-align: center;
+}
+ul li {
+    float: left;
+    line-height: 6rem;
+    width: 33.3%;
+    font-weight: bold;
+}
+ul li a {
+    text-decoration: none;
+    color: darkred;
+}
+ul li a:hover {
+    color: whitesmoke;
+}
+ul li ul {
+    display: none;
+}
+ul li:hover ul{
+    display:block;
+}
+ul li ul li {
+    width: 100%;
+    line-height: 3rem;
+    background-color: #f08080;
+}
+ul li ul li a:hover{
+    background-color: lightpink;
+    color: lightslategray;
+}
+ul li ul li:hover {
+    background-color: lightpink;
+}
+ul li::after {
+    content:'';
+    display: block;
+    clear: both;
+    float: none;
+}

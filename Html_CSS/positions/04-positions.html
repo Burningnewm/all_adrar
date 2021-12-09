@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Positions</title>
+    <meta name="description" content="Dans cet exercice décourvrez comment positionner les éléments les uns par rapport aux autres, mais aussi comment les fixer...">
+</head>
+<body>
+    <h1> La propriété position peut vous aider à manipuler l'emplacement d'un élément</h1>
+    <div class="container">
+        <div class="pos-sta">
+            <p>
+                <span> Ce bloc est en position static</span><br> chaque élément a une position statique par défaut, donc l'élément restera fidèle au flux de page normal. Donc, s'il y a un ensemble d' index gauche / droite / haut / bas / z, il n'y aura aucun effet sur cet élément.
+            </p>
+            
+        </div>
+        <div class="pos-rel">
+            <p>
+                <span>Celui ci en relative </span><br>la position d'origine d'un élément reste dans le flux du document, tout comme la valeur static. Mais maintenant, gauche / droite / haut / bas / z-index fonctionnera. Les propriétés de position «décalent» l'élément de sa position d'origine dans cette direction.
+            </p>
+            
+        </div>
+        <div class="pos-abs abs1">
+            <p>
+                <span>Ce bloc est en position absolute</span><br> l'élément est supprimé du flux du document et les autres éléments se comporteront comme s'il n'était même pas là alors que toutes les autres propriétés positionnelles fonctionneront dessus.
+            </p>
+        </div>
+        <div class="pos-abs abs2">
+            <p>
+                <span>Ce bloc aussi est en position absolute</span>
+            </p>
+        </div>
+        <!-- <div class="pos-sti">
+                <p><span>Celui ci est en position Sticky</span><br>(expérimental): l'élément est traité comme une relativevaleur jusqu'à ce que l'emplacement de défilement de la fenêtre atteigne un seuil spécifié, auquel point l'élément prend une fixed position où il est dit de rester.
+                </p>
+        </div> -->
+        <div class="pos-fix">
+            <p>
+                <span>Voici un bloc en position fixed </span><br> l'élément est retiré du flux du document comme des éléments absolument positionnés. En fait, ils se comportent presque de la même manière, seuls les éléments positionnés fixes sont toujours relatifs au document, pas à un parent en particulier, et ne sont pas affectés par le défilement.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

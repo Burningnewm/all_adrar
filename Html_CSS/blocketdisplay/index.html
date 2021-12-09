@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/mystyle.css">
+    <title>Display Block et Positionnement</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            color:tomato;
+            text-align: center;
+            font-size: 2.5rem;
+        }
+        h2 {
+            color:yellowgreen;
+            text-align: center;
+            font-size: 2rem;
+        }
+        h3 {
+            color:mediumslateblue;
+            text-align: center;
+            font-size: 1.8rem;
+            background-color: plum;
+            line-height: 2.5rem;
+        }
+        p {
+            font-size: 1.2rem;
+            background-color: lightblue;
+            padding: 1rem;
+            /* line-height: 1.4rem; */
+        }
+        div.liensans a{
+            background-color: paleturquoise;
+        }
+        div.lienavec a{
+            background-color: paleturquoise;
+            line-height: 2rem;
+            display: block;
+            margin-bottom: .5rem;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>DISPLAY BLOCK ET POSITIONNEMENT</h1>
+    <h2>DISPLAY BLOCK</h2>
+<p>Utilisez la propriété display:block ; pour transformer les liens en bloc (pour pouvoir leur donner des dimensions). Donnez à vos liens les dimensions exactes de votre image de fond. Utilisez la propriété line-height: px avec une valeur identique à la hauteur du block afin que le texte soit centré verticalement.</p> 
+
+<h3>VOICI 3 LIENS SANS LA PROPRIÉTÉ DISPLAY BLOCK</h3>
+<div class="liensans">
+    <a href="">Lien01</a>
+    <a href="">Lien02</a>
+    <a href="">Lien03</a>
+</div>
+<h3>VOICI 3 LIENS AVEC LA PROPRIÉTÉ DISPLAY BLOCK</h3>
+<div class="lienavec">
+    <a href="">Lien01</a>
+    <a href="">Lien02</a>
+    <a href="">Lien03</a>
+</div>
+</body>
+</html>

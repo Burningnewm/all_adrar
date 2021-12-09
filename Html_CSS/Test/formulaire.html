@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width", initial-scale=1.0>
+    <title>Formulaire</title>
+    <meta name="description" content="Ceci est un formulaire">
+</head>
+<body>
+    <form action="send.php" method="post"><!--action: vers quel fichier envoyer ce formulaire - method: méthode d'envois, get ou post, post recommandé, get affiche infos dans l'url-->
+        
+        <fieldset>
+
+            <legend>Ceci est mon premier formulaire</legend>
+
+            <label for="name">Votre Nom</label><br><!--for ne necessite pas de # éviter les majuscules et accents et espaces sont interdits-->
+            <input type="text" id="name" required><br>
+
+            <label for="objet">Objet</label><br>
+            <input type="text" id="objet"><br>
+
+            <label for="mail">Votre E-mail</label><br>
+            <input type="email" id="mail" placeholder="tapez votre email içi"><br>
+
+            <label for="message">Votre message</label><br>
+            <textarea id="message" cols="10" rows="5"></textarea><br>
+
+        </fieldset>    
+
+        <label for="click">Ceci est une case à cocher</label>
+        <input type="checkbox" name="coche" id="click"><br><!--Peut être détourné pour faire un "menu burger"-->
+
+        <label for="burger">Cochez içi pour séléctionner votre Burger</label>
+        <input type="radio" name="burger" id="burger"><br>
+        <input type="radio" name="burger" id="burger"><br>
+        
+        <label for="option">choisir une option</label>
+        <select name="choix" id="option">
+            <option value="">Crayon</option>
+            <option value="" selected>Stylo</option>
+            <option value="">Pinceau</option>
+
+            <optgroup label="choisir plus">
+                <option value="">Puit</option>
+                <option value="">Glaçon</option>
+                <option value="">Pierre</option>
+            </optgroup>
+        </select><br>
+
+        
+
+        <input type="submit" value="Envoyer le message"><br>
+
+        <label for="boutton">Cliquez moi</label><br>
+        <input type="button" id="boutton"><br>
+
+        <label for="datetime">Ceci est une date</label><br>
+        <input type="datetime-local" id="datetime"><br>
+
+    </form>
+</body>
+</html>

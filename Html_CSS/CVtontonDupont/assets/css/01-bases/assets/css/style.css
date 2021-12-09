@@ -1,0 +1,47 @@
+h1{
+    font-size: 2.5rem;
+    color: coral;
+    /* font-weight: 600; same same */
+    font-weight: bold;
+    /* text-align: center; */
+}
+.centre01{
+    text-align: center;
+}
+hr{
+    width: 50%;
+    /* width: 50rem; au chois , le % permet à l'élément de s'adapter à la taille de l'écran*/
+    background-color: turquoise;
+    height: .1rem;
+    border: none;
+    /* border: .2rem solid turquoise; */
+}
+h2{
+    color: yellowgreen;
+    margin: 2rem 0;
+    font-weight: bold;
+    font-size: 2rem;
+    /* margin: 2rem 0 2rem 0 same same; */
+    /* margin-top: 2rem;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    margin-left: 0; */
+}
+h3{
+    font-weight: bold;
+    color: darkblue;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+.liste{
+    padding: 4rem;
+    border: .1rem dotted red;
+    width: 15rem;
+    margin: auto;
+    /* pour faire fonctionner un margin auto , il faut fixer une largeur à l'élément */
+}
+.lien{
+    color: darkmagenta;
+    text-decoration: none;
+}
+

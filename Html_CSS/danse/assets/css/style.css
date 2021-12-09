@@ -1,0 +1,43 @@
+body {
+    background-color: #646464;
+}
+header {
+    height: 100px;
+    width: 90%;
+    margin: auto;
+}
+header h1 img{
+    float: right;
+    transform: rotate(-25deg);
+    padding-top: 5rem;
+}
+header ul li {
+    text-transform: uppercase;
+    color: #2F2F2F;
+    text-decoration: none;
+    transform: rotate(-90deg);
+    height: 5rem;
+    width: 5rem;
+    padding: 5rem;
+    font-size: 1.5rem;
+}
+section p{
+    font-size: 4rem;
+    color: white;
+    width:  55rem;
+    padding-left: 10rem;
+    padding-top: 30rem;
+    display: inline-block;
+}
+section div img:first-child {
+    float: right;
+    width: 30%;
+    top: 35%;
+  
+}
+section div img:last-child {
+    float: right;
+    z-index: 1;
+    width: 20%;
+    top: 35%;
+}

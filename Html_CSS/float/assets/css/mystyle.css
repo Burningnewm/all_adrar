@@ -1,0 +1,124 @@
+h1 {
+    color: greenyellow;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.5rem;
+}
+div.parent{
+    width: 30rem;
+    height: 25rem;
+    margin: auto;
+}
+div.blue {
+    background-color: blue;
+    width: 30rem;
+    height: 5rem;
+}
+div.red, div.orange, div.green {
+    float: left;
+    width: 10rem;
+    height: 10rem;
+}
+div.red {
+    background-color:palevioletred;
+}
+div.orange {
+    background-color: tomato;
+}
+div.green {
+    background-color: palegreen;
+}
+div.purple {
+    background-color:blueviolet;
+    float: left;
+    width: 30rem;
+    height: 5rem;
+}
+div.parent2{
+    width: 30rem;
+    height: 25rem;
+    margin: auto;
+}
+div.a, div.b{ 
+    width: 15rem;
+    height: 5rem;
+    float: left;
+}
+div.a {
+    background-color: blue;
+}
+div.b {
+    background-color: palevioletred;
+}
+div.c {
+    float: left;
+    width: 20rem;
+    height:10rem;
+    background-color: tomato;
+}
+div.parent3{
+    width: 10rem;
+    height: 10rem;
+    float: left;
+}
+div.d {
+    width: 10rem;
+    height: 5rem;
+    background-color: palegreen;
+}
+div.e {
+    width: 10rem;
+    height: 5rem;
+    background-color: plum;
+}
+div.f, div.g {
+    width: 15rem;
+    height: 5rem;
+    float: left;
+}
+div.f {
+    background-color: palevioletred;
+}
+div.g {
+    background-color: palegoldenrod;
+}
+div.parent4 {
+    width: 40rem;
+    height: 30rem;
+    margin: auto;
+}
+div.h {
+    width: 7.5rem;
+    height: 20rem;
+    background-color: darkgoldenrod;
+    float: left;
+    text-align: center;
+}
+div.i {
+    width: 32.5rem;
+    height: 7.5rem;
+    background-color: tomato;
+    float: left;
+    text-align: center;
+}
+div.j {
+    width: 25rem;
+    height: 12.5rem;
+    background-color: maroon;
+    float: left;
+    text-align: center;
+}
+div.k {
+    width: 7.5rem;
+    height: 20rem;
+    background-color: darkslateblue;
+    float: right;
+    text-align: center;
+}
+div.l {
+    width: 32.5rem;
+    height: 7.5rem;
+    background-color: lightskyblue;
+    float: left;
+    text-align: center;
+}
